@@ -1,0 +1,29 @@
+{
+  "main": "bundle.js",
+  "scripts": {
+    "serve": "live-server public",
+    "babel-build": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "start": "webpack-dev-server",
+    "build": "webpack --watch"
+  },
+  "name": "isobutane_react",
+  "version": "1.0.0",
+  "author": "dh",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "live-server": "^1.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^4.3.1",
+    "validator": "8.0.0",
+    "webpack": "^4.44.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}

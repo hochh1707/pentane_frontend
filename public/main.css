@@ -1,0 +1,217 @@
+body {
+    background-color: powderblue;
+}
+.viewWrapper{
+  width: 50%;
+  min-height: 700px;
+  background-color:#cccccc;
+  border-style: solid;
+  border-width: 1px 1px 1px 20px;
+  border-color: #515151;
+  padding: 1%;
+  margin-left: 25%;
+  font-family: arial;
+  font-size: 1.2em;
+  display:inline-block;
+}
+.rowWrapper{
+  min-height: 65px;
+  width: 85%
+}
+.viewLabel{
+  width: 35%;
+  min-height: 60px;
+  float:left;
+  margin-top: 1%;
+  padding-top: 0%;
+  padding-left: 2%;
+  background-color: #0000cc;
+  color: #D9D9D9;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+.viewData{
+  width: 60%;
+  min-height: 60px;
+  /*max-height: 60px;*/
+  float:left;
+  padding-left: 1%;
+  margin-top: 1%;
+  color: #4d4d4d;
+  background-color: #AFEEEE;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* -webkit-user-select: all;  Chrome all / Safari all */
+  /* -moz-user-select: all;     Firefox all */
+  /* -ms-user-select: all;      IE 10+ */
+  /* user-select: all;          Likely future */
+}
+.viewList{
+  width: 60%;
+  min-height: 60px;
+  max-height: 60px;
+  float:left;
+  padding-left: 1%;
+  margin-top: 1%;
+  color: #4d4d4d;
+  background-color: #AFEEEE;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.viewMessageCenter{
+  width: 60%;
+  min-height: 60px;
+  max-height: 60px;
+  padding-left: 1%;
+  margin-left: 10%;
+  margin-top: 1%;
+  color: #4d4d4d;
+  background-color: #7aa6a6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-user-select: all;  /* Chrome all / Safari all */
+  -moz-user-select: all;     /* Firefox all */
+  -ms-user-select: all;      /* IE 10+ */
+  user-select: all;          /* Likely future */
+}
+.forwardButton{
+  width: 65%;
+  min-height: 48px;
+  float:left;
+  padding-top: 2%;
+  padding-left: 3%;
+  margin-top: 1%;
+  margin-left: 1%;
+  background-color: #808080;
+  color: white;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+.backwardButton{
+  width: 65%;
+  min-height: 48px;
+  float:left;
+  padding-top: 2%;
+  padding-left: 3%;
+  margin-top: 1%;
+  margin-left: 1%;
+  background-color: #808080;
+  color: white;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+.longButtonCenter{
+  width: 65%;
+  min-height: 60px;
+  float:left;
+  padding-top: 2%;
+  padding-left: 3%;
+  margin-top: 1%;
+  margin-left: 10%;
+  background-color: #808080;
+  color: white;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+.smallButton{
+  width: 20%;
+  min-height: 55px;
+  padding-top: 1%;
+  padding-left: 2%;
+  margin-top: 1%;
+  margin-left: 1%;
+  background-color: #808080;
+  color: white;
+  float: left;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+.enterStuff{
+  width: 45%;
+  min-height: 58px;
+  border: 0px;
+  padding-left: 2%;
+  margin-top: 1%;
+  margin-left: 1%;
+  background-color: #a6a6a6;
+  color: white;
+}
+.viewHeadline{
+  width: 80%;
+  min-height: 60px;
+  max-height: 60px;
+  margin-left: 10%;
+  margin-top: 1%;
+  padding-left: 2%;
+  color: white;
+  background-color: #515151;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-user-select: all;  /* Chrome all / Safari all */
+  -moz-user-select: all;     /* Firefox all */
+  -ms-user-select: all;      /* IE 10+ */
+  user-select: all;          /* Likely future */
+}
+.enterStuffCenter{
+  width: 45%;
+  min-height: 58px;
+  border-style: solid;
+  border-color: #7aa6a6;
+  border-width: 2px;
+  margin-left: 10%;
+  margin-top: 1%;
+  padding-left: 2%;
+  background-color: #a6a6a6;
+  color: white;
+}
+.enterStuffLeft{
+  width: 45%;
+  min-height: 58px;
+  border: 0px;
+  padding-left: 2%;
+  margin-top: 1%;
+  margin-left: 1%;
+  background-color: #a6a6a6;
+  color: white;
+  float:left;
+}
+.enterNote{
+  width: 45%;
+  min-height: 58px;
+  border: 0px;
+  padding-left: 2%;
+  margin-top: 1%;
+  margin-left: 1%;
+  background-color: #a6a6a6;
+  color: white;
+  float:left;
+}
+.logout{
+  width: 60%;
+  min-height: 60px;
+  float:left;
+  padding-left: 2%;
+  margin-top: 1%;
+  margin-left: 1%;
+  background-color: #3d3d3d;
+  color: white;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+@media only screen and (max-width: 768px) {
+  .viewWrapper{
+    font-size: 1.0em;
+  }
+}
