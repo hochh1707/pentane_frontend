@@ -4,7 +4,9 @@
     "serve": "live-server public",
     "babel-build": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
     "start": "webpack-dev-server",
-    "build": "webpack --watch"
+    "build_dev": "webpack --watch",
+    "build_prod": "webpack -p --env production",
+    "heroku-postbuild": "yarn run build_prod"
   },
   "name": "isobutane_react",
   "version": "1.0.0",
@@ -16,6 +18,7 @@
     "babel-loader": "7.1.1",
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
+    "express": "^4.17.1",
     "live-server": "^1.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
