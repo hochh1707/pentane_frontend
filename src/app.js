@@ -20,5 +20,6 @@ class BeginHere extends React.Component{
   }
 }
 
-ReactDOM.render(<BeginHere baseUrl = "http://127.0.0.1:5000" />, document.getElementById('viewEditSingleProp'));
+//ReactDOM.render(<BeginHere baseUrl = "http://127.0.0.1:5000" />, document.getElementById('viewEditSingleProp'));
+ReactDOM.render(<BeginHere baseUrl = "https://pentane-backend4.herokuapp.com/" />, document.getElementById('viewEditSingleProp'));
 //ReactDOM.render(<BeginHere baseUrl="http://www.api.heyrental.com" />, document.getElementById('viewEditSingleProp'));
